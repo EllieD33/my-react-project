@@ -5,9 +5,9 @@ function PlayerScore({text}){
     const [count, setCount] = useState(0);
     const [quantity, setQuantity] = useState(0);
 
-    const handleAsaf = () => {
+    function handleAsaf() {
         setCount(count + 25);
-    };
+    }
 
     const handleOnChange = (e) => {
         setQuantity(e.target.value);
